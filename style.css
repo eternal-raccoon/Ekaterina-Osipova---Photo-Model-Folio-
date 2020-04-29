@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'Behrens AntiquaC';
+    src: url(fonts/Behrens\ AntiquaC.ttf);
+}
+
+@font-face {
+    font-family: 'Bleedings Cowboys';
+    src: url(fonts/Bleedings\ Cowboys.ttf);
+}
+
+@font-face {
+    font-family: 'CCHellshock';
+    src: url(fonts/CCHellshock.otf);
+}
+
+@font-face {
+    font-family: 'd_Due Date';
+    src: url(fonts/d_Due\ Date.ttf);
+}
+
+@font-face {
+    font-family: 'Dogwood';
+    src: url(fonts/Dogwood.otf);
+}
+
+@font-face {
+    font-family: 'Latin Bold Narrow';
+    src: url(fonts/Latin\ Bold\ Narrow.ttf);
+}
+
+@font-face {
+    font-family: 'Latin Italic';
+    src: url(fonts/Latin\ Italic.ttf);
+}
+
+@font-face {
+    font-family: 'Latin Roman';
+    src: url(fonts/Latin\ Roman.ttf);
+}
+
+@font-face {
+    font-family: 'Lato Regular';
+    src: url(fonts/Lato\ Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Mon Terminal';
+    src: url(fonts/Mon\ Terminal.otf);
+}
+
+@font-face {
+    font-family: 'MozillaC';
+    src: url(fonts/MozillaC.ttf);
+}
+
+@font-face {
+    font-family: 'Munson Bold Italic';
+    src: url(fonts/Munson.otf);
+}
+
+@font-face {
+    font-family: 'Munson Bold';
+    src: url(fonts/Munson\ Bold.otf);
+}
+
+@font-face {
+    font-family: 'Munson Italic';
+    src: url(fonts/Munson\ Bold\ Italic.otf);
+}
+
+@font-face {
+    font-family: 'Munson';
+    src: url(fonts/Munson\ Italic.otf);
+}
+
+@font-face {
+    font-family: 'Ondine';
+    src: url(fonts/Ondine.ttf);
+}
+
+@font-face {
+    font-family: 'Pravda Fixed Pitch';
+    src: url(fonts/Pravda\ Fixed\ Pitch.otf);
+}
+
+@font-face {
+    font-family: 'PriamojS';
+    src: url(fonts/PriamojS.otf);
+}
+
+@font-face {
+    font-family: 'Space Toaster CYR';
+    src: url(fonts/Space\ Toaster\ CYR.ttf);
+}
+
+@font-face {
+    font-family: 'URWWoodTypD';
+    src: url(fonts/URWWoodTypD.ttf);
+}
+
+@font-face {
+    font-family: 'VinqueRG';
+    src: url(fonts/VinqueRG.ttf);
+}
+
+body {
+    margin: 0 auto;
+    font-weight: 400;
+    max-width: 1480px;
+}
+
+a {
+    text-decoration: none;    
+}
+
+.land-header {
+    width: 100%;
+}
+
+.header-logo {
+    background-color: #1c1c1c;
+}
+
+.header-menu {
+    background-color: #022027;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;  
+    width: 25%;
+}
+
+.header-menu-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;  
+    width: 100%;
+}
+
+.header-menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;   
+    padding: 20px 0;
+    width: 100%;    
+    list-style: none;
+}
+
+.header-menu-item {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 20%;
+}
+
+.header-menu-item:hover {
+    width: 18%;
+    border-right: solid ivory;
+    border-left: solid ivory;
+    border-width: 1%;
+}
+
+.header-menu-link {
+    font-family: 'CCHellshock';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #d0f0c0;
+}
