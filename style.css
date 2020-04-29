@@ -103,6 +103,11 @@
     src: url(fonts/VinqueRG.ttf);
 }
 
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url(fonts/montserrat/Montserrat-SemiBold.ttf);
+}
+
 body {
     margin: 0 auto;
     font-weight: 400;
@@ -117,28 +122,13 @@ a {
     width: 100%;
 }
 
-.header-logo {
-    background-color: #1c1c1c;
-}
-
-.header-menu {
-    background-color: #022027;
-}
-
-.logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;  
-    width: 25%;
-}
-
 .header-menu-nav {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;  
     width: 100%;
+    background-color: black
 }
 
 .header-menu-list {
@@ -154,26 +144,67 @@ a {
 .header-menu-item {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-grow: 1;
     margin: 0 auto;
     padding: 0 auto;
-    width: 20%;
-}
-
-.header-menu-item:hover {
-    width: 18%;
-    border-right: solid ivory;
-    border-left: solid ivory;
-    border-width: 1%;
+    width: 15%;
 }
 
 .header-menu-link {
-    font-family: 'CCHellshock';
+    font-family: 'Montserrat-SemiBold';
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 19px;
     text-transform: uppercase;
     text-decoration: none;
-    line-height: 18px;
+    line-height: 20px;
     letter-spacing: 2px;
-    color: #d0f0c0;
+    color: white;
 }
+
+.header-menu-link:hover {
+    font-size: 24px;
+    line-height: 25px;
+    border-top: solid white;
+    border-bottom: solid white;
+    border-width: 1%;
+    transition: 1s;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    margin: 0 auto;
+    width: 10%;
+    overflow: hidden;
+    transition: 1.5s;
+}
+
+.logo:hover {
+    transform: scale(1.3);
+}
+
+.intro {
+    background-color: #0a0a0a;
+    color: white;
+}
+
+
+/* .fixed-block {
+    height: 700px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    background-attachment: fixed;
+    overflow: hidden;
+} */
